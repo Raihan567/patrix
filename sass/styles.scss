@@ -1,0 +1,19 @@
+/*================== import Custom ===================*/
+@import 'custom';
+
+/*================== Import components ================*/
+
+@import'./components/animation';
+@import'./components/button';
+@import'./components/mixin';
+@import'./components/typography';
+/*=================== Import sections================= */
+@import './sections/navbar';
+@import './sections/intro-section';
+@import './sections/companies';
+@import './sections/get-started';
+@import './sections/service';
+@import './sections/faq';
+@import './sections/portfolio';
+@import './sections/testimonials';
+@import './sections/footer';

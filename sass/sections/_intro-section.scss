@@ -1,0 +1,45 @@
+.intro-section {
+  @include gradient;
+  padding: 10rem 0 0 0;
+  height: 100%;
+  width: 100%; 
+}
+
+.intros {
+
+  .video-box {
+    position: relative;
+
+    a {
+
+      // @include absoluteCenter;
+      span {
+
+        i {
+          font-size: 5rem;
+          color: $primary;
+        }
+
+      }
+    }
+  }
+}
+
+.border-animation {
+  position: absolute;
+  border: 0.55rem solid $white;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  animation: pulse-border 1.5s linear infinite;
+
+  &--border-1 {
+    animation-delay: 1s;
+  }
+
+  &--border-2 {
+    animation-delay: 1.5s;
+  }
+}

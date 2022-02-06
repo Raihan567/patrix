@@ -1,0 +1,38 @@
+// @import 'custom';
+
+/* Border right */
+.border-right {
+  border-right: 0.1rem solid #ddd;
+}
+
+.services {
+  position: relative;
+  padding: 1rem 0;
+
+  &__content {
+    padding: 1rem;
+    margin-top: 5rem;
+
+    .icone {
+      color: $primary;
+    }
+    .display-3--title{
+      font-size: 1.8rem;
+      text-transform: capitalize;
+      font-weight: 600;
+      font-family: 'Poppins', sans-serif;
+      display: inline-block;
+      background-image:linear-gradient(to right, $primary, $secondary);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+
+
+
+    }
+  }
+  &__pic{
+    max-width: 90%;  
+  }
+
+}
